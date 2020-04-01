@@ -18,7 +18,7 @@ Vue.component('my-component-name', { /* ... */ })
 
 O nome do componente é o primeiro argumento de `Vue.component`.
 
-O nome que você dá a um componente depende de onde você pretende utilizá-lo. Quando for utilizar diretamente no DOM (ao contrário de uma _template_ String ou um [Componente Single-File](single-file-components.html), nós recomendamnos fortemente seguir as [regras do W3C](https://html.spec.whatwg.org/multipage/custom-elements.html#valid-custom-element-name) para nome de _tags_ customizadas (todas as letras minuscúlas, com hífen entre as palavras). Isso lhe ajuda a evitar conflitos com atuais e futuros elementos nativos do HTML.
+O nome que você dá a um componente depende de onde você pretende utilizá-lo. Quando for utilizar diretamente no DOM (ao contrário de uma _template_ String ou um [Componente Single-File](single-file-components.html), nós recomendamos fortemente seguir as [regras do W3C](https://html.spec.whatwg.org/multipage/custom-elements.html#valid-custom-element-name) para nome de _tags_ customizadas (todas as letras minuscúlas, com hífen entre as palavras). Isso lhe ajuda a evitar conflitos com atuais e futuros elementos nativos do HTML.
 
 Você pode ver outras recomendações sobre nome de componentes no [Guia de Estilo](../style-guide/#Base-component-names-strongly-recommended).
 
